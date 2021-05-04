@@ -65,7 +65,7 @@ server.addPage("/oauth2callback", (lien) => {
     lien.end(
       "The video is being uploaded. Check out the logs in the terminal."
     );
-    debugger;
+
     Youtube.videos.list(
       {
         part: ["id"],
